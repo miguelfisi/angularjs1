@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Manejo de routas</title>
+</head>
+<body ng-app="main">
+
+  <div ui-view></div>
+  <!-- We'll also add some navigation: -->
+  <a ui-sref="state1">State 1</a>
+  <a ui-sref="state2">State 2</a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>  	
+  <script src="app.js"></script>
+  <script src="State1ListController.js"></script>
+</body>
+</html>
